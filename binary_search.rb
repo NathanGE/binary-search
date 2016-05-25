@@ -5,9 +5,8 @@ def binary_search(array, target)
   max = array.length - 1
   while max >= min
     guess = (max + min) / 2
-    if array[guess] == target
-      return guess
-    elsif array[guess] < target
+    return guess if array[guess] == target
+    if array[guess] < target
       min = guess + 1
     else
       max = guess - 1
