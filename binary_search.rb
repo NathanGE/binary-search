@@ -14,7 +14,3 @@ def binary_search(array, target)
   end
   -1
 end
-
-index_of_target = binary_search([1, 3, 5, 6, 12, 14], 6)
-
-puts "The index of the target is: #{index_of_target}"
